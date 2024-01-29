@@ -2,6 +2,8 @@
 
 A collaborative whiteboard application built using WebRTC for real-time communication and collaboration.
 
+![WebRTC Whiteboard](https://res.cloudinary.com/dovis2sop/image/upload/v1706560482/eg8el8gvmhtkic0u59sx.jpg)
+
 ## Tech Stack
 
 - **Frontend:** HTML, CSS, JavaScript
