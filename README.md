@@ -28,3 +28,15 @@ Visit the [WebRTC Whiteboard](https://whiteboardrtc.onrender.com) live demo.
 
    ```bash
    git clone https://github.com/your-username/whiteboard.git
+   
+2. Install dependencies:
+   ```bash
+   cd whiteboard
+   npm install
+
+3. Run the application:
+   ```bash
+   npm start
+
+The application will be accessible at http://localhost:3000.
+
