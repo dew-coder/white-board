@@ -6,8 +6,10 @@ const app = express();
 //display frontend
 app.use(express.static("public"));
 
-let server = app.listen(3000, ()=>{
-    console.log("listening to port " + 3000)
+let port = process.env.PORT || 3000;
+
+let server = app.listen(port, ()=>{
+    console.log("listening to port " + port)
 })
 
 const io = socket(server);
