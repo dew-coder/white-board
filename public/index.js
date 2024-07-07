@@ -29,8 +29,8 @@ options.addEventListener("click", (e)=>{
 })
 
 function onOption(){
-    lines.classList.remove("fa-xmark");
-    lines.classList.add("fa-bars")
+    lines.classList.add("fa-xmark");
+    lines.classList.remove("fa-bars")
     items.style.visibility = "visible";
     pencil.style.visibility = "visible";
     eraser.style.visibility = "visible";
@@ -38,8 +38,8 @@ function onOption(){
 }
 
 function closeOption(){
-    lines.classList.remove("fa-bars");
-    lines.classList.add("fa-xmark");
+    lines.classList.add("fa-bars");
+    lines.classList.remove("fa-xmark");
     items.style.visibility = "hidden";
     pencil.style.visibility = "hidden";
     eraser.style.visibility = "hidden";
